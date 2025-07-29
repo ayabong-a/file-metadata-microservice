@@ -1,6 +1,7 @@
 const express = require("express");
 const multer = require("multer");
 const cors = require("cors");
+require('dotenv').config();
 
 const app = express();
 
